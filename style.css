@@ -1,8 +1,22 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    opacity: 0.9;
-    /*text-align: center;*/
-}
+    body {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 22px;
+        color: seashell;
+        background-color: black;
+        opacity: 0.9;
+        margin: 0 auto;
+        /*text-align: center;*/
+    }
+    
+    .logo {
+        float: left;
+    }
+    
+    nav {
+        /*display: inline;*/
+        float: right;
+    }
+    
+    nav a {
+        color: seashell;
+    }
