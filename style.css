@@ -12,6 +12,10 @@
         float: left;
     }
     
+    .img-logo {
+        height: 50px;
+    }
+    
     nav {
         /*display: inline;*/
         float: right;
@@ -19,4 +23,21 @@
     
     nav a {
         color: seashell;
+        text-decoration: underline;
+    }
+    
+    .logo-nav {
+        height: 69px;
+        border-bottom: 1px solid seashell;
+    }
+    
+    .mission {
+        text-align: center;
+        background-image: url("images/img-mission-background.png");
+        height: 700px;
+        width: 1200px;
+    }
+    
+    .mission-para {
+        background: black;
     }
