@@ -48,10 +48,16 @@
     .mission {
         text-align: center;
         background-image: url("images/img-mission-background.png");
+        background-repeat: no-repeat;
+        background-position: center;
         height: 700px;
-        width: 1200px;
+        max-width: 1200px;
+        margin: 40px auto 40px auto;
+        display: flex;
     }
     
-    .mission-para {
-        background: black;
+    .mission-text {
+        background-color: black;
+        margin: auto;
+        width: 100%;
     }
